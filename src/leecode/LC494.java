@@ -1,13 +1,14 @@
 package leecode;
 
 
-class Solution {
+class LC494 {
 
     public static void main(String[] args) {
         int nums[]={1,2,1};
         int ans=findTargetSumWays(nums,0);
         System.out.println(ans);
     }
+
     public static int findTargetSumWays(int[] nums, int S) {
 
         int len = nums.length;
