@@ -52,7 +52,7 @@ public class LambdaTest
         void sayMessage(String message);
     }
 
-    interface Runnable
+    interface qRunnable
     {
         void run();
     }
