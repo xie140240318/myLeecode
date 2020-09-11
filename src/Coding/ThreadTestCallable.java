@@ -17,7 +17,7 @@ public class ThreadTestCallable implements Callable<String> {
         Future<String> sub2 = executorService.submit(threadTestCallable);
         Future<String> sub3 = executorService.submit(threadTestCallable);
         String s = sub1.get();
-        String s = sub1.get();
+        String s2 = sub1.get();
 
         
     }
